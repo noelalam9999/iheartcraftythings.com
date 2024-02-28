@@ -1,0 +1,82 @@
+.navbar {
+  background-color: #2c9fa3;
+  display: flex;
+  justify-content: space-between;
+  font-family: Poppins-Bold;
+  font-size: larger;
+}
+
+.burgerMenu {
+  display: none;
+  margin: 1rem;
+}
+
+.logoMenuItems {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.searchShareBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.logo {
+  margin: 1rem;
+}
+
+.logoImg {
+  width: 25vw;
+}
+
+.search {
+  margin-right: 1rem;
+}
+
+.menuItems {
+  margin-left: 2rem;
+  display: flex;
+}
+
+.menuItem {
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.menuItem:visited {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .menuItems {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+
+  .burgerMenuIconImg {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .shareIconImg {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  .logoImg {
+    width: 40vw;
+  }
+
+  .searchShareBtn {
+    margin-right: 0.5rem;
+  }
+}
