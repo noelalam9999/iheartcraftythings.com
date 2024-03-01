@@ -1,0 +1,6 @@
+.blogList {
+  width: 90vw;
+
+  display: grid;
+  grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+}
