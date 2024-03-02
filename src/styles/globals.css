@@ -2,7 +2,6 @@
   position: relative;
 }
 .background {
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,9 +12,24 @@
   margin-top: 15vh;
 }
 
+.current-page {
+  display: flex;
+  justify-content: center;
+}
+
 @font-face {
   font-family: Poppins-Bold;
   src: url("../assets/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../assets/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Semi-Bold;
+  src: url("../assets/Poppins-SemiBold.ttf");
 }
 
 @media (max-width: 600px) {

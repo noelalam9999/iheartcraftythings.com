@@ -52,3 +52,7 @@
 .menuItem {
   text-decoration: none;
 }
+
+.menuItem:visited {
+  color: inherit;
+}

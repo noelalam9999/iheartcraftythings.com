@@ -1,11 +1,11 @@
 import React from "react";
 import BlogCard from "../BlogCard";
-import blogPosts from "@/data/bloglist.json";
+// import blogPosts from "@/data/bloglist.json";
 import styles from "./style.module.css";
-function BlogList() {
+function BlogList({ blogs }) {
   return (
     <div className={styles.blogList}>
-      {blogPosts.map((blogPost) => {
+      {blogs.map((blogPost) => {
         return <BlogCard key={blogPost.id} blogPost={blogPost} />;
       })}
     </div>

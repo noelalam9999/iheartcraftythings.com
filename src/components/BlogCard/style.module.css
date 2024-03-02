@@ -1,9 +1,33 @@
 .cardContainer {
-  width: 22.5vw;
+  width: 20vw;
+  background-color: white;
+  margin: 1.25vw;
 }
 .cardImage {
-  width: 22.5vw;
+  width: 20vw;
 }
 .blogName {
-  font-family: Poppins-Bold;
+  font-family: Poppins-Semi-Bold;
+  margin: 0.5vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  font-size: 1.25vw;
+}
+
+@media (max-width: 600px) {
+  .cardContainer {
+    width: 90vw;
+    background-color: white;
+    margin: 5vw;
+  }
+  .cardImage {
+    width: 90vw;
+  }
+  .blogName {
+    font-family: Poppins-Semi-Bold;
+    margin: 3vh;
+    margin-top: 3vw;
+    margin-bottom: 3vh;
+    font-size: 7vw;
+  }
 }
