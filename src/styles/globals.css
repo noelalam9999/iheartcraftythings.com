@@ -15,6 +15,26 @@
 .current-page {
   display: flex;
   justify-content: center;
+  background-color: rgb(242, 242, 242);
+  font-family: Poppins-Regular;
+}
+
+.current-page-label {
+  font-family: Poppins-Regular;
+  color: grey;
+}
+
+.from-label {
+  font-family: Poppins-Bold;
+}
+
+.hr {
+  background-color: rgb(242, 242, 242);
+  color: grey;
+}
+
+.wrapper {
+  background-color: rgb(242, 242, 242);
 }
 
 @font-face {

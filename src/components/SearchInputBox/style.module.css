@@ -1,0 +1,16 @@
+.searchInputBox {
+  position: absolute;
+  margin-top: 7vh;
+  width: 15vw;
+  height: 7vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(3px 10px 4px rgba(0, 0, 0, 0.3));
+}
+
+.searchInput {
+  width: 12vw;
+  height: 3vh;
+}

@@ -23,7 +23,7 @@ function CollapsableMenu() {
             <Image
               className={styles.pinterest}
               src={closeIcon}
-              alt="facebook"
+              alt="close-icon"
             ></Image>
           </div>
           <div className={styles.menuItems}>

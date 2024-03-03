@@ -6,13 +6,27 @@ import burgerMenu from "../../assets/burger-menu-icon.png";
 import Image from "next/image";
 import { useAppDispatch, useAppSelector } from "../../app/hooks";
 import { changeDisplayState } from "../../features/collapsableMenu/collapsable-menu-slice";
+import { changeSearchDisplayState } from "../../features/searchBarDisplay/search-bar-display.slice";
+import { changeSocialMediaOptionsDisplayState } from "../../features/socialMediaOptions/social-media-options-slice";
+
 import Link from "next/link";
+import SearchInputBox from "../SearchInputBox";
+import SocialMediaOptions from "../SocialMediaOptions";
 
 function Navbar() {
   const dispatch = useAppDispatch();
   function onBurgerMenuClick() {
     dispatch(changeDisplayState());
   }
+
+  function onSearchIconHover(display) {
+    dispatch(changeSearchDisplayState(display));
+  }
+
+  function onSocialMediaIconHover(display) {
+    dispatch(changeSocialMediaOptionsDisplayState(display));
+  }
+
   return (
     <div className={styles.navbar}>
       <div onClick={onBurgerMenuClick} className={styles.burgerMenu}>
@@ -40,15 +54,25 @@ function Navbar() {
         </div>
       </div>
       <div className={styles.searchShareBtn}>
-        <div className={styles.search}>
+        <div
+          onMouseEnter={() => onSearchIconHover(true)}
+          onMouseLeave={() => onSearchIconHover(false)}
+          className={styles.search}
+        >
           <Image
             src={searchIcon}
             className={styles.searchIconImg}
             alt="Search"
           />
+          <SearchInputBox />
         </div>
-        <div className={styles.shareBtn}>
+        <div
+          onMouseEnter={() => onSocialMediaIconHover(true)}
+          onMouseLeave={() => onSocialMediaIconHover(false)}
+          className={styles.shareBtn}
+        >
           <Image src={shareIcon} className={styles.shareIconImg} alt="share" />
+          <SocialMediaOptions />
         </div>
       </div>
     </div>
