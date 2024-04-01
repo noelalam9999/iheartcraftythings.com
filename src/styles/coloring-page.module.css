@@ -1,0 +1,55 @@
+.coloringPage {
+  width: 90vw;
+  background-color: rgb(255, 255, 255);
+}
+
+.blog {
+  margin: 2vw 3vw 1vw 3vw;
+  text-wrap: wrap;
+  display: grid;
+  grid-template-columns: 5vw 43vw 36vw;
+  border-top: solid 2px grey;
+}
+
+.title {
+  background-color: rgb(255, 255, 255);
+  font-size: 2.2vw;
+  font-weight: 700;
+  font-family: Poppins-Regular;
+  margin-block-start: 0em;
+  padding-top: 5vh;
+  padding-left: 3vw;
+}
+
+.subTitle {
+  font-size: 1.2vw;
+  font-family: Poppins-Regular;
+  font-weight: 300;
+  opacity: 0.5;
+  padding-bottom: 0vh;
+  padding-left: 3vw;
+}
+
+.blog p {
+  font-family: Poppins-Regular;
+  font-size: 1.2vw;
+  margin-bottom: 2vh;
+  text-align: left;
+}
+
+.blog p img {
+  width: 100%;
+  height: auto;
+}
+
+.blog p a {
+  text-decoration: none;
+  color: #2c9fa3;
+  font-weight: 700;
+}
+
+.socialColor {
+  width: 4vw;
+  height: auto;
+  margin-top: 1em;
+}

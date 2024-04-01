@@ -13,9 +13,9 @@ function ColoringPages() {
       <div className="wrapper">
         <div className="current-page">
           <div className="from-label">Home</div>&nbsp; {">"}&nbsp;
-          <div className="current-page-label">Coloring Pages</div>
+          <div className="current-page-label text-bold">Coloring Pages</div>
         </div>
-        <hr style={{ backgroundColor: "grey" }} className="hr" />
+
         <BlogList blogs={blogs} />
       </div>
     </>

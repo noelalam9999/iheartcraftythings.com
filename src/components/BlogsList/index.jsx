@@ -1,11 +1,16 @@
 import React from "react";
 import BlogCard from "../BlogCard";
-// import blogPosts from "@/data/bloglist.json";
 import styles from "./style.module.css";
-function BlogList({ blogs }) {
-  return (
+import usePosts from "@/hooks/usePosts/index.js";
+
+function BlogList() {
+  const { isLoading, data } = usePosts(1);
+
+  return isLoading ? (
+    <>Loading</>
+  ) : (
     <div className={styles.blogList}>
-      {blogs.map((blogPost) => {
+      {data?.data?.data?.map((blogPost) => {
         return <BlogCard key={blogPost.id} blogPost={blogPost} />;
       })}
     </div>

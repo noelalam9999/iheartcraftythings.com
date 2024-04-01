@@ -4,6 +4,7 @@
   justify-content: space-between;
   font-family: Poppins-Bold;
   font-size: larger;
+  color: white;
 }
 
 .burgerMenu {
@@ -58,6 +59,9 @@
 
 .menuItem:visited {
   color: inherit;
+}
+
+.shareIconImg {
 }
 
 @media (max-width: 600px) {

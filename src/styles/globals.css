@@ -1,5 +1,6 @@
 .body {
   position: relative;
+  background-color: rgb(242, 242, 242);
 }
 .background {
   display: flex;
@@ -15,26 +16,45 @@
 .current-page {
   display: flex;
   justify-content: center;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
+  font-family: Poppins-Regular;
+  padding-top: 6px;
+  border-bottom: 1px solid grey;
+  padding-bottom: 5px;
+}
+
+.current-page-post {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(255, 255, 255);
+  padding-left: 1vw;
+  padding-top: 1vw;
   font-family: Poppins-Regular;
 }
 
 .current-page-label {
   font-family: Poppins-Regular;
-  color: grey;
 }
 
 .from-label {
-  font-family: Poppins-Bold;
+  font-family: Poppins-Regular;
+}
+
+.text-bold {
+  font-weight: bold;
 }
 
 .hr {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(255, 255, 255);
   color: grey;
 }
 
 .wrapper {
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
+}
+
+.headers {
+  background-color: rgb(255, 255, 255);
 }
 
 @font-face {

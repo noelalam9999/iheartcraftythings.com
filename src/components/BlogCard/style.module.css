@@ -1,17 +1,32 @@
+.a {
+  text-decoration: none;
+  color: black;
+}
+
 .cardContainer {
-  width: 16.5vw;
-  background-color: white;
+  max-width: 16.5vw;
   margin: 0.75vw;
+  text-decoration: none;
+  background-color: white;
 }
 .cardImage {
   width: 16.5vw;
+  cursor: pointer;
 }
 .blogName {
-  font-family: Poppins-Semi-Bold;
-  margin: 0.5vw;
-  margin-top: 1vw;
-  margin-bottom: 1vw;
+  text-decoration: none !important;
+  font-family: Poppins-Regular;
+  font-weight: 600;
+  padding: 0.75vw;
+  /* margin-top: 1vw;
+  margin-bottom: 1vw; */
   font-size: 1.25vw;
+  cursor: auto;
+}
+
+.blogName:visited {
+  text-decoration: none;
+  cursor: auto;
 }
 
 @media (max-width: 600px) {

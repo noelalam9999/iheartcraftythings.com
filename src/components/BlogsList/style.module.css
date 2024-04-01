@@ -1,6 +1,6 @@
 .blogList {
   width: 90vw;
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(234, 232, 232);
   display: grid;
   grid-template-columns: 18vw 18vw 18vw 18vw 18vw;
 }
@@ -8,7 +8,7 @@
 @media (max-width: 600px) {
   .blogList {
     width: 100vw;
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(234, 232, 232);
     display: grid;
     grid-template-columns: 100vw;
   }
