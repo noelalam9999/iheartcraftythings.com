@@ -19,8 +19,10 @@ function ColoringPage() {
         <title>{post?.data?.data?.title}</title>
       </Head>
       <div className="current-page-post">
-        <div className="from-label">Home</div>&nbsp; {">"}&nbsp;
-        <div className="current-page-label">Coloring Pages</div>&nbsp; {">"}
+        <div className="from-label">Home</div>&nbsp; <span> {">"} </span>
+        &nbsp;
+        <div className="current-page-label">Coloring Pages</div>&nbsp;{" "}
+        <span>{">"}</span>
         &nbsp;
         <div className="current-page-label text-bold">
           {post?.data?.data?.title}

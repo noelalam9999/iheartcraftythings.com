@@ -1,0 +1,36 @@
+.footer {
+  width: 95vw;
+  background-color: #2c9fa3;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  column-gap: 2vw;
+  padding-left: 3vw;
+  padding-top: 3vh;
+  color: white;
+}
+.title {
+  font-size: 1rem;
+  font-family: Poppins-Bold;
+}
+.passage {
+  margin-top: 1vh;
+  font-family: Poppins-Regular;
+  font-size: 0.8rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  font-size: 0.8rem;
+  font-family: Poppins-Regular;
+}
+.links a {
+  margin-top: 0.5vh;
+  text-decoration: none;
+  color: white;
+}
+.links a:visited {
+  margin-top: 0.5vh;
+  text-decoration: none;
+  color: white;
+}

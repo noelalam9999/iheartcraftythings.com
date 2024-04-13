@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import CollapsableMenu from "../components/CollapsableMenu";
 import { QueryClient, QueryClientProvider, useQuery } from "react-query";
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 // import { BlogList } from "@/components/BlogList";
 export default function App({ Component, pageProps }) {
@@ -30,6 +31,7 @@ export default function App({ Component, pageProps }) {
             </div>
             <CollapsableMenu />
           </div>
+          <Footer />
         </div>
       </Provider>
     </QueryClientProvider>

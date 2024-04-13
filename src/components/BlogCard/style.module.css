@@ -31,7 +31,7 @@
 
 @media (max-width: 600px) {
   .cardContainer {
-    width: 90vw;
+    max-width: 90vw;
     background-color: white;
     margin: 5vw;
   }

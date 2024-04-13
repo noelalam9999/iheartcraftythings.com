@@ -14,7 +14,7 @@ function KidsCrafts() {
           <div className="from-label">Home</div>&nbsp; {">"}&nbsp;
           <div className="current-page-label">Kids Crafts</div>
         </div>
-        <hr className="hr" />
+
         <BlogList blogs={blogs} />
       </div>
     </>
