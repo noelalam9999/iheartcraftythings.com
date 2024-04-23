@@ -58,6 +58,11 @@
   background-color: rgb(255, 255, 255);
 }
 
+.chat {
+  overflow: hidden;
+  position: relative;
+}
+
 @font-face {
   font-family: Poppins-Bold;
   src: url("../assets/Poppins-Bold.ttf");

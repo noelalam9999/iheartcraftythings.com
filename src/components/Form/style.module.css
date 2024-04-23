@@ -1,0 +1,40 @@
+.formBackground {
+  background-color: rgb(242, 246, 249);
+  width: 90vw;
+  height: 8vh;
+}
+
+.formContainer {
+  background-color: white;
+  width: 88vw;
+  margin-left: 1vw;
+  height: 6vh;
+  border-radius: 3vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 88vw;
+  margin-left: 2vw;
+}
+
+.input {
+  border: none;
+  width: 77vw;
+  font-family: Poppins-Regular;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.submit {
+  background-color: black;
+  color: white;
+  width: 8vw;
+  height: 3.5vh;
+  border-radius: 2vh;
+  font-family: Poppins-Regular;
+}

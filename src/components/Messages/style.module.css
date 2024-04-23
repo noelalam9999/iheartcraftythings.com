@@ -1,0 +1,60 @@
+.messagesContainer {
+  width: 90vw;
+  height: 90vh;
+  background-color: rgb(242, 246, 249);
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.message {
+  width: 90vw;
+  height: fit-content;
+  display: flex;
+}
+
+.message {
+}
+
+.bubble {
+  padding: 0.5rem;
+  border-radius: 1rem;
+  width: fit-content;
+  max-width: 30vw;
+  font-family: Poppins-Regular;
+}
+
+.left {
+  justify-content: start;
+}
+
+.right {
+  justify-content: end;
+}
+
+.left .bubble {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-left: 1rem;
+}
+
+.right .bubble {
+  background-color: white;
+  margin-right: 1rem;
+}
+
+.fadeIn {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: fadeIn;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
