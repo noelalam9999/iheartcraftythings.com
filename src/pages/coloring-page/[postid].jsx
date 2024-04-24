@@ -9,9 +9,8 @@ import Head from "next/head";
 function ColoringPage() {
   const router = useRouter();
   let post = {};
-  if (router.query.postid) {
-    post = usePost(router.query.postid);
-  }
+
+  post = usePost(router.query?.postid);
 
   return (
     <>

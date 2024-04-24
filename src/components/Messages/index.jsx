@@ -41,5 +41,5 @@ const Messages = forwardRef((props, ref) => {
     </div>
   );
 });
-
+Messages.displayName = "Messages";
 export default Messages;
