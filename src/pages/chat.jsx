@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import Messages from "../components/Messages";
 import Form from "../components/Form";
+import { config } from "../config";
 
 function Chat() {
   const messageEndRef = useRef(null);
@@ -21,8 +22,8 @@ function Chat() {
       },
     ]);
     e.target.message.value = "";
-
-    fetch("http://localhost:8000/chat", {
+    setShowDots(true);
+    fetch(`${config?.backendURL}/chat`, {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -34,6 +35,7 @@ function Chat() {
         return res.json();
       })
       .then((res) => {
+        setShowDots(false);
         setMessages((prev) => [
           ...prev,
           {
@@ -55,7 +57,7 @@ function Chat() {
 
   return (
     <div className="chat">
-      <Messages messages={messages} ref={messageEndRef} showDot={showDots} />
+      <Messages messages={messages} ref={messageEndRef} showDots={showDots} />
       <Form handleSubmit={handleSubmit} />
     </div>
   );
