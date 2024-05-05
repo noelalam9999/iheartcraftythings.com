@@ -10,7 +10,7 @@ function BlogList() {
     <>Loading</>
   ) : (
     <div className={styles.blogList}>
-      {data?.data?.data?.map((blogPost) => {
+      {data?.data?.result?.map((blogPost) => {
         return <BlogCard key={blogPost.id} blogPost={blogPost} />;
       })}
     </div>

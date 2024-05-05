@@ -1,5 +1,6 @@
 import axios from "axios";
+import { config } from "../../config";
 
 export const getPosts = (pageNumber) => {
-  return axios.get(`/api/posts?per_page=10&page=${pageNumber}`);
+  return axios.get(`${config.backendLocal}/blogs`);
 };

@@ -87,3 +87,13 @@
     justify-content: space-between;
   }
 }
+
+@media print {
+  .image-to-print {
+    width: 90vw;
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+}
