@@ -23,16 +23,12 @@ export default function App({ Component, pageProps }) {
   return (
     <QueryClientProvider client={queryClient}>
       <Provider store={store}>
-        <div className="body">
-          <div className="background">
-            <div className="container">
-              <Navbar />
-              <Component {...pageProps} />
-            </div>
-            <CollapsableMenu />
-          </div>
-          <Footer />
+        <Navbar />
+        <div className="background">
+          <Component {...pageProps} />
         </div>
+        <Footer />
+        <CollapsableMenu />
       </Provider>
     </QueryClientProvider>
   );

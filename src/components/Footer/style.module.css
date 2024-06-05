@@ -1,5 +1,6 @@
 .footer {
-  background-color: #2c9fa3;
+  background-color: #3885fc;
+
   display: grid;
   grid-template-columns: 30vw 30vw 30vw;
   column-gap: 2vw;
@@ -35,17 +36,26 @@
   color: white;
 }
 
+.footerBottom {
+  background-color: rgba(252, 154, 10, 0.8);
+}
+
 @media (max-width: 600px) {
   .footer {
-    grid-template-columns: 90vw;
+    width: 100%;
+    grid-template-columns: 85vw;
     column-gap: 0vw;
     margin-top: 2vh;
-    padding-left: 2vw;
+    padding-left: 10vw;
+    padding-right: 5vw;
     padding-top: 3vh;
     color: white;
     padding-bottom: 5vh;
   }
   .title {
     margin-top: 5vh;
+  }
+  .footerBottom {
+    padding-left: 15vw;
   }
 }

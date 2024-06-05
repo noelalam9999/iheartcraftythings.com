@@ -6,11 +6,13 @@ Deployed at KOYEB
 email : akth.sxn@gmail.com
 password : coloringbook123
 
+# Resourses
+
+## CSS
+
+https://getcssscan.com/css-box-shadow-examples
+
 # Todo
-
-2. pinterest link up
-
-https://pinterest.com/pin/create/button/?url=${url}&amp;media={imageURL}&amp;title=${title}&amp;description=${desc}
 
 3. Redis integration
    redis with express

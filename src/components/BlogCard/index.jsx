@@ -11,7 +11,9 @@ function BlogCard({ blogPost }) {
     >
       <div className={styles.cardContainer}>
         <img className={styles.cardImage} src={blogPost.thumbnail}></img>
-        <div className={styles.blogName}>{blogPost.title}</div>
+        <div className={styles.blogName}>
+          <span>{blogPost.title}</span>
+        </div>
       </div>
     </Link>
   );

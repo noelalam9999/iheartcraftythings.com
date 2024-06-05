@@ -1,10 +1,20 @@
 .navbar {
-  background-color: #2c9fa3;
+  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   font-family: Poppins-Bold;
+
+  padding-left: 15%;
+  padding-right: 15%;
   font-size: larger;
   color: white;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.shadow {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .burgerMenu {
@@ -15,7 +25,7 @@
 .logoMenuItems {
   display: flex;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .searchShareBtn {
@@ -26,10 +36,6 @@
 
 .logo {
   margin: 1rem;
-}
-
-.logoImg {
-  width: 25vw;
 }
 
 .search {
@@ -62,9 +68,14 @@
 }
 
 .shareIconImg {
+  width: 30px;
 }
 
 @media (max-width: 600px) {
+  .navbar {
+    width: 100%;
+    padding-left: 0vw;
+  }
   .menuItems {
     display: none;
   }
@@ -83,6 +94,7 @@
   }
 
   .shareIconImg {
+    display: none;
     width: 10vw;
     height: 10vw;
   }
