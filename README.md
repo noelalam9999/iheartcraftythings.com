@@ -12,12 +12,13 @@ password : coloringbook123
 
 https://getcssscan.com/css-box-shadow-examples
 
+## Cloudinary
+
+https://www.youtube.com/watch?v=Z7LwjMIeDt0
+
 # Todo
 
-3. Redis integration
-   redis with express
-   paginated data
-
-4. Pagination front-end
-
-# Done
+search bar animation
+search bar functionality
+share functionality
+images linking

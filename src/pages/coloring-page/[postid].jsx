@@ -6,15 +6,12 @@ import { useRouter } from "next/router";
 import socialColor from "@/assets/socials-color.png";
 import Head from "next/head";
 import { Cloudinary } from "@cloudinary/url-gen";
-import { AdvancedImage } from "@cloudinary/react";
-import { fill } from "@cloudinary/url-gen/actions/resize";
 import Drawing from "../../components/Drawing";
 
 function ColoringPage() {
   const router = useRouter();
   let post = {};
   post = usePost(router.query?.postid);
-  console.log(post);
   const cld = new Cloudinary({
     cloud: {
       cloudName: "dsuiwxwkg",
