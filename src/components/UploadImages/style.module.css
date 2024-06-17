@@ -39,7 +39,7 @@
 }
 
 .imageInput::file-selector-button {
-  width: 130px;
+  width: 170px;
   color: transparent;
 }
 
@@ -58,19 +58,22 @@
 .imageInput::after {
   position: absolute;
   pointer-events: none;
-  top: 11px;
+  top: 6px;
   left: 40px;
+  font-family: Poppins-Regular;
+  font-size: large;
 
   color: #0964b0;
-  content: "Upload File";
+  content: "Choose Photos";
 }
 
 /* ------- From Step 1 ------- */
 
 /* file upload button */
-.imageInput::file-selector-button {
+.imageInput {
   border-radius: 4px;
-  padding: 16px;
+  font-family: Poppins-Regular;
+  font-size: large;
   height: 40px;
   cursor: pointer;
   background-color: white;
@@ -82,7 +85,7 @@
 }
 
 /* file upload button hover state */
-.imageInput::file-selector-button:hover {
+.imageInput:hover {
   background-color: #f3f4f6;
 }
 
@@ -92,8 +95,10 @@
 }
 
 .selectTag {
+  font-family: Poppins-Regular;
+  font-size: large;
   border-radius: 4px;
-  width: 130px;
+  width: 240px;
   padding-left: 15px;
   height: 40px;
   cursor: pointer;
@@ -108,4 +113,40 @@
 .uploadForm {
   display: flex;
   flex-direction: column;
+}
+
+.uploadButton {
+  font-family: Poppins-Regular;
+  font-size: large;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  height: 40px;
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+  margin-right: 16px;
+  transition: background-color 200ms;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.error {
+  font-family: Poppins-Regular;
+  font-size: small;
+  color: red;
+  margin-bottom: 20px;
+}
+
+.success {
+  font-family: Poppins-Regular;
+  font-size: large;
+  width: 240px;
+  padding-top: 7px;
+  background-color: green;
+  color: white;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
 }

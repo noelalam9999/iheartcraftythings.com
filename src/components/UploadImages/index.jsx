@@ -19,6 +19,7 @@ function UploadImages() {
   const fileSelected = (event) => {
     setSuccessShowModal(false);
     setSuccessfulUploads([]);
+    setError("");
     setFiles(event.target.files);
   };
 
@@ -37,9 +38,11 @@ function UploadImages() {
 
   const submitImages = async (event) => {
     event.preventDefault();
-    setFileUploadLoading(true);
+
     const sheetName = sheetNameRef.current.value;
     if (files.length > 0 && sheetName != "Choose sheet") {
+      setFileUploadLoading(true);
+      setError("");
       try {
         await cloudinaryUpload(
           files,
@@ -54,7 +57,7 @@ function UploadImages() {
       }
     } else {
       if (files.length <= 0) {
-        setError("Upload files");
+        setError("Choose files");
       } else {
         setError("Set Sheetname");
       }
@@ -66,12 +69,16 @@ function UploadImages() {
       <div className={styles.formContainer}>
         <form className={styles.uploadForm} onSubmit={submitImages}>
           <input
-            className={styles.imageInput}
             type="file"
+            id="img"
             name="img"
             multiple
+            style={{ visibility: "hidden" }}
             onChange={fileSelected}
           />
+          <label className={styles.imageInput} htmlFor="img"></label>
+
+          {error === "Choose files" && <p className={styles.error}>{error}</p>}
 
           <select className={styles.selectTag} name="sheet" ref={sheetNameRef}>
             <option key={-1}>
@@ -84,14 +91,16 @@ function UploadImages() {
             ))}
           </select>
 
+          {error === "Set Sheetname" && <p className={styles.error}>{error}</p>}
+
           <input
             type="submit"
-            value={`${fileUploadLoading ? "Loading" : "Upload Photos"}`}
+            className={styles.uploadButton}
+            value={`${fileUploadLoading ? "uploading" : "Upload Photos"}`}
             disabled={fileUploadLoading}
           />
+          {showSuccessModal ? <p className={styles.success}>Uploaded!</p> : ""}
         </form>
-        <div>{error}</div>
-        <div>{showSuccessModal ? "uploaded" : ""}</div>
       </div>
 
       <div className={styles.imageResults}>
