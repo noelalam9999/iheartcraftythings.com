@@ -44,6 +44,7 @@
 .ctaButton :visited {
   color: white;
 }
+
 @media (max-width: 600px) {
   .coloringPage {
     width: 100vw;

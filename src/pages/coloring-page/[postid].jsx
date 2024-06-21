@@ -64,6 +64,7 @@ function ColoringPage() {
 
                 {post?.data?.data?.content.slice(1).map((drawing) => (
                   <Drawing
+                    key={drawing.Number}
                     drawing={drawing}
                     folder={post?.data.data.details.sheet}
                   ></Drawing>

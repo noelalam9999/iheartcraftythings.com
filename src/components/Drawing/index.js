@@ -3,6 +3,7 @@ import styles from "./style.module.css";
 import { AdvancedImage } from "@cloudinary/react";
 import ReactToPrint from "react-to-print";
 import { saveAs } from "file-saver";
+import Image from "next/image";
 
 function Drawing({ drawing, folder }) {
   const componentRef = React.useRef(null);
@@ -20,11 +21,7 @@ function Drawing({ drawing, folder }) {
       <h2>{drawing.Title}</h2>
       <figure>
         <figcaption>{drawing.Description}</figcaption>
-        <img
-          className="image-to-print"
-          ref={componentRef}
-          src={`https://res.cloudinary.com/dsuiwxwkg/image/upload/v1/${folder}/${drawing.ImageFilename}`}
-        />
+        <img className="image-to-print" ref={componentRef} src={drawing.file} />
       </figure>
 
       <div className={styles.ctaButtons}>

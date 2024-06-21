@@ -30,7 +30,6 @@ function UploadImages() {
     ) {
       const sheetName = sheetNameRef.current.value;
       uploadImageURLsToSheets(successfulUploads, sheetName).then((res) => {
-        console.log(res);
         setSuccessShowModal(true);
       });
     }
@@ -50,7 +49,7 @@ function UploadImages() {
           setSuccessfulUploads,
           setFailedUploads
         );
-
+        setFileUploadLoading(false);
         setError("");
       } catch (error) {
         console.log(error);
