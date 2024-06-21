@@ -1,4 +1,5 @@
 export const config = {
   backendURL: "https://kidsnkrafts-backend.fly.dev",
-  backendLocal: "http://localhost:8000",
+  koyebURL: "https://steady-lesly-kidsnkrafts-047cb698.koyeb.app/",
+  backendLocal: "https://steady-lesly-kidsnkrafts-047cb698.koyeb.app/",
 };
