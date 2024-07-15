@@ -21,7 +21,11 @@ function Drawing({ drawing, folder }) {
       <h2>{drawing.Title}</h2>
       <figure>
         <figcaption>{drawing.Description}</figcaption>
-        <img className="image-to-print" ref={componentRef} src={drawing.file} />
+        <img
+          className="image-to-print"
+          ref={componentRef}
+          src={drawing.ImageURL}
+        />
       </figure>
 
       <div className={styles.ctaButtons}>
@@ -39,17 +43,14 @@ function Drawing({ drawing, folder }) {
           className={styles.ctaButton}
           download
           onClick={() => {
-            saveAs(
-              `https://res.cloudinary.com/dsuiwxwkg/image/upload/v1/${folder}/${drawing.ImageFilename}`,
-              drawing.ImageFilename
-            ); // Put your image URL here.
+            saveAs(drawing.ImageURL, drawing.ImageFilename); // Put your image URL here.
           }}
         >
           Download
         </button>
         <a
           className={styles.ctaButton}
-          href={`https://pinterest.com/pin/create/button/?url=https://momlovesbest.com/dragon-coloring-pages&media=https://res.cloudinary.com/dsuiwxwkg/image/upload/v1/${folder}/${drawing.ImageFilename}&title=${drawing.Title}&description=${drawing.Description}&method=button`}
+          href={`https://pinterest.com/pin/create/button/?url=https://kidsnkraft.com&media=${drawing.ImageURL}&title=${drawing.Title}&description=${drawing.Description}&method=button`}
         >
           Pinterest
         </a>

@@ -3,6 +3,8 @@
   background-color: rgb(255, 255, 255);
 }
 
+.content-wrapper {
+}
 .blog {
   margin: 2vw 3vw 1vw 3vw;
   text-wrap: wrap;
@@ -28,6 +30,8 @@
   opacity: 0.5;
   padding-bottom: 0vh;
   padding-left: 3vw;
+  width: 80vw;
+  text-wrap: wrap;
 }
 
 .blog p {

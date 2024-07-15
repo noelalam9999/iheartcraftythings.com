@@ -55,8 +55,17 @@ export async function uploadImageURLsToSheets(successfulUploads, sheet) {
     const imageArray = JSON.parse(
       JSON.stringify([...existingImages.data.result, ...successfulUploads])
     );
+    const featuredImage = imageArray.filter((image) => {
+      if (image && image.includes("featured")) {
+        return image;
+      }
+    });
 
     const arrangedImages = arrangeImagesSequence(imageArray, sheet);
+
+    if (featuredImage.length > 0) {
+      await uploadFeaturedImage(featuredImage[0]);
+    }
 
     return axios.post(`${config.backendLocal}/insert-images`, {
       images: arrangedImages,
@@ -70,4 +79,11 @@ export async function uploadImageURLsToSheets(successfulUploads, sheet) {
 async function getExistingImages(sheet) {
   const response = await axios.get(`${config.backendLocal}/images/${sheet}`);
   return response;
+}
+
+async function uploadFeaturedImage(image, sheet) {
+  return await axios.post(`${config.backendLocal}/insert-images`, {
+    images: arrangedImages,
+    sheet: sheet,
+  });
 }

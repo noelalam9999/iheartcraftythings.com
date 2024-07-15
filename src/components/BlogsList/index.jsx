@@ -9,7 +9,6 @@ function BlogList() {
   const { isLoading, data } = usePosts(1);
 
   const { setBlogListDistance } = useBlogListDistance();
-  console.log(data);
   function handleScroll() {
     const top = blogRef?.current?.getBoundingClientRect();
     setBlogListDistance(top?.top);
