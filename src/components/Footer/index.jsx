@@ -42,7 +42,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className={styles.footerBottom}>© 2024 iHeartCraftyThings</div>
+      <div className={styles.footerBottom}>© 2024 kidsnkraft</div>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>I Heart Crafty Things</title>
+        <title>Kids and Kraft</title>
       </Head>
 
       <BlogList blogs={blogs} />
