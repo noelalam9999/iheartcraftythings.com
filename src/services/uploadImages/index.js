@@ -48,7 +48,11 @@ export async function cloudinaryUpload(
     });
 }
 
-export async function uploadImageURLsToSheets(successfulUploads, sheet) {
+export async function uploadImageURLsToSheets(
+  successfulUploads,
+  sheet,
+  sheetArray
+) {
   try {
     const existingImages = await getExistingImages(sheet);
 
@@ -61,11 +65,21 @@ export async function uploadImageURLsToSheets(successfulUploads, sheet) {
       }
     });
 
-    const arrangedImages = arrangeImagesSequence(imageArray, sheet);
-
+    let arrangedImages = arrangeImagesSequence(imageArray, sheet);
     if (featuredImage.length > 0) {
-      await uploadFeaturedImage(featuredImage[0]);
+      // console.log(sheetArray);
+      const sheetId = sheetArray.map((item, index) => {
+        if (item.sheet === sheet) {
+          return index + 2;
+        }
+      });
+      console.log(sheetId);
+      arrangedImages.push({
+        range: `BlogsList!G${sheetId[0]}`,
+        values: [featuredImage],
+      });
     }
+    console.log(arrangedImages);
 
     return axios.post(`${config.backendLocal}/insert-images`, {
       images: arrangedImages,

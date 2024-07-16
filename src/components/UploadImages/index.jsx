@@ -29,7 +29,11 @@ function UploadImages() {
       successfulUploads.length + failedUploads.length === files.length
     ) {
       const sheetName = sheetNameRef.current.value;
-      uploadImageURLsToSheets(successfulUploads, sheetName).then((res) => {
+      uploadImageURLsToSheets(
+        successfulUploads,
+        sheetName,
+        data.data.result // sheets array for inserting into featured image
+      ).then((res) => {
         setSuccessShowModal(true);
       });
     }
