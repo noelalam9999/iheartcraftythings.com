@@ -11,7 +11,6 @@ export async function cloudinaryUpload(
   return Promise.all(
     Object.values(files).map(async (file, index) => {
       const data = new FormData();
-
       data.append("file", file);
       data.append("upload_preset", "elujivfm");
       data.append("cloud_name", "dsuiwxwkg");
@@ -55,7 +54,6 @@ export async function uploadImageURLsToSheets(
 ) {
   try {
     const existingImages = await getExistingImages(sheet);
-
     const imageArray = JSON.parse(
       JSON.stringify([...existingImages.data.result, ...successfulUploads])
     );
@@ -64,23 +62,19 @@ export async function uploadImageURLsToSheets(
         return image;
       }
     });
-
     let arrangedImages = arrangeImagesSequence(imageArray, sheet);
     if (featuredImage.length > 0) {
-      // console.log(sheetArray);
-      const sheetId = sheetArray.map((item, index) => {
+      const targetSheet = sheetArray.filter((item, index) => {
         if (item.sheet === sheet) {
-          return index + 2;
+          item.id = index;
+          return item;
         }
       });
-      console.log(sheetId);
       arrangedImages.push({
-        range: `BlogsList!G${sheetId[0]}`,
+        range: `BlogsList!G${targetSheet[0].id + 2}`,
         values: [featuredImage],
       });
     }
-    console.log(arrangedImages);
-
     return axios.post(`${config.backendLocal}/insert-images`, {
       images: arrangedImages,
       sheet: sheet,
