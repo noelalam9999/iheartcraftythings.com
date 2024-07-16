@@ -12,8 +12,8 @@ export async function cloudinaryUpload(
     Object.values(files).map(async (file, index) => {
       const data = new FormData();
       data.append("file", file);
-      data.append("upload_preset", "elujivfm");
-      data.append("cloud_name", "dsuiwxwkg");
+      data.append("upload_preset", "jvzidtvh");
+      data.append("cloud_name", "dw5k8gno4");
       data.append("folder", folder);
 
       //throttle every 5 iterations
@@ -21,7 +21,7 @@ export async function cloudinaryUpload(
         setTimeout(() => {}, 5000);
       }
       try {
-        await fetch("https://api.cloudinary.com/v1_1/dsuiwxwkg/image/upload", {
+        await fetch("https://api.cloudinary.com/v1_1/dw5k8gno4/image/upload", {
           method: "POST",
           body: data,
         })
