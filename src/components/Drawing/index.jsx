@@ -43,7 +43,7 @@ function Drawing({ drawing, folder }) {
           className={styles.ctaButton}
           download
           onClick={() => {
-            saveAs(drawing.ImageURL, drawing.ImageFilename); // Put your image URL here.
+            saveAs(drawing.ImageURL); // Put your image URL here.
           }}
         >
           Download
