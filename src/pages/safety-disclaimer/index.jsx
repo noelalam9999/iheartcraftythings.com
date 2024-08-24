@@ -5,13 +5,14 @@ function index() {
     <div className="safety-body">
       <h1>Safety and Liability Release</h1>
       <p>
-        By using Kids N' Kraft, you agree to the following safety and liability
-        terms:
+        By using Kids N&apos; Kraft, you agree to the following safety and
+        liability terms:
         <br />
         <br />
         Supervision: It is recommended that all crafts and activities be
-        supervised by an adult. Kids N' Kraft shall not be held responsible for
-        any damages resulting from activities featured on this Website. <br />
+        supervised by an adult. Kids N&apos; Kraft shall not be held responsible
+        for any damages resulting from activities featured on this Website.{" "}
+        <br />
         <br />
         Safety Precautions: Always take safety precautions when performing
         crafts and activities. Follow the labels of ingredients and supplies
@@ -24,13 +25,13 @@ function index() {
         supervision. Adults should handle any chemicals, hot glue, or craft
         knives. <br />
         <br />
-        Liability Disclaimer: Kids N' Kraft disclaims liability for any damage,
-        mishap, or injury that may occur from engaging in activities featured on
-        this Website. If you have any questions regarding the safety of our
-        activities, please contact us at hello@kidsnkraft.com. Readers access
-        Kids N' Kraft and its content at their own risk. The information
-        provided is for entertainment purposes only and is not intended as
-        medical, legal, or other professional advice.
+        Liability Disclaimer: Kids N&apos; Kraft disclaims liability for any
+        damage, mishap, or injury that may occur from engaging in activities
+        featured on this Website. If you have any questions regarding the safety
+        of our activities, please contact us at hello@kidsnkraft.com. Readers
+        access Kids N&apos; Kraft and its content at their own risk. The
+        information provided is for entertainment purposes only and is not
+        intended as medical, legal, or other professional advice.
       </p>
     </div>
   );

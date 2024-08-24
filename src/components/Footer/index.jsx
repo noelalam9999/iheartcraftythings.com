@@ -8,8 +8,8 @@ function Footer() {
         <div className={styles.ourMission}>
           <div className={styles.title}>OUR MISSION</div>
           <div className={styles.passage}>
-            Kids N' Kraft is a participant in affiliate programs and may earn
-            commissions from qualifying purchases made through links on our
+            Kids N&apos; Kraft is a participant in affiliate programs and may
+            earn commissions from qualifying purchases made through links on our
             site. We also promote advertisements to support and fund our
             website. All content on this website is provided for informational
             and educational purposes only and is not intended as a substitute
@@ -26,10 +26,10 @@ function Footer() {
         <div className={styles.importantPages}>
           <div className={styles.title}>IMPORTANT PAGES</div>
           <div className={styles.links}>
-            <Link href="">About</Link>
-            <Link href="">Safety Disclaimer</Link>
-            <Link href="">Terms</Link>
-            <Link href="">Privacy Policy</Link>
+            <Link href="/mission">About</Link>
+            <Link href="/safety-disclaimer">Safety Disclaimer</Link>
+            <Link href="/terms-of-use">Terms</Link>
+            <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
       </div>

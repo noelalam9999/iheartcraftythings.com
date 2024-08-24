@@ -7,11 +7,12 @@ function index() {
 
       <h2>Acceptance of the Terms of Use</h2>
       <p>
-        These Terms of Use (“Terms”) are a binding agreement between you and
-        Kids N' Kraft (“Company,” “we,” or “us”). These Terms, along with our
-        Privacy Policy, govern your access to and use of https://kidsnkraft.com
-        (the “Website”), including all content, features, and services available
-        on or through the Website.
+        These Terms of Use (&apos;Terms&apos;) are a binding agreement between
+        you and Kids N&apos; Kraft (&apos;Company,&apos; &apos;we,&apos; or
+        &apos;us&apos;). These Terms, along with our Privacy Policy, govern your
+        access to and use of https://kidsnkraft.com (the &apos;Website&apos;),
+        including all content, features, and services available on or through
+        the Website.
         <br />
         Please read these Terms carefully before using the Website. By accessing
         or using the Website, you agree to be bound by these Terms and our
@@ -23,9 +24,10 @@ function index() {
       <h2>Affiliate Disclosure</h2>
       <p>
         Some links on this site may be affiliate links, meaning that if you
-        click on them and make a purchase, Kids N' Kraft may earn a commission
-        at no additional cost to you. We only recommend products and services
-        that we believe in and that we think will be of value to our users.
+        click on them and make a purchase, Kids N&apos; Kraft may earn a
+        commission at no additional cost to you. We only recommend products and
+        services that we believe in and that we think will be of value to our
+        users.
       </p>
 
       <h2>Sponsorship Disclosure</h2>
@@ -93,31 +95,31 @@ function index() {
 
       <h2>Intellectual Property Rights</h2>
       <p>
-        We’re thrilled that you enjoy the content on our site! If you wish to
-        use any material from the Website in a way not outlined in this section,
-        please send your request to: hello@kidsnkraft.com. The Website,
+        We&apos;re thrilled that you enjoy the content on our site! If you wish
+        to use any material from the Website in a way not outlined in this
+        section, please send your request to: hello@kidsnkraft.com. The Website,
         including all content, features, and functionality (such as information,
         software, text, displays, images, video, and audio, as well as the
-        design, selection, and arrangement of these), is owned by Kids N' Kraft,
-        its licensors, or other content providers. This material is protected by
-        United States and international copyright, trademark, patent, trade
-        secret, and other intellectual property or proprietary rights laws.
-        These Terms of Use allow you to use the Website for personal,
-        non-commercial purposes only. You must not reproduce, distribute,
-        modify, create derivative works of, publicly display, publicly perform,
-        republish, download, store, or transmit any of the material on our
-        Website, except as follows: Your computer may temporarily store copies
-        of materials in RAM as part of your accessing and viewing those
-        materials. You may store files that your web browser automatically
-        caches to enhance display performance. You may print or download one
-        copy of a reasonable number of pages from the Website for your personal,
-        non-commercial use, provided it’s not for further reproduction,
-        publication, or distribution. If we provide desktop, mobile, or other
-        applications for download, you may download a single copy to your device
-        for personal, non-commercial use, provided you agree to be bound by our
-        end user license agreement for such applications. If the Website offers
-        social media features, such as "Share" or "Pin It," you may take actions
-        enabled by these features.
+        design, selection, and arrangement of these), is owned by Kids N&apos;
+        Kraft, its licensors, or other content providers. This material is
+        protected by United States and international copyright, trademark,
+        patent, trade secret, and other intellectual property or proprietary
+        rights laws. These Terms of Use allow you to use the Website for
+        personal, non-commercial purposes only. You must not reproduce,
+        distribute, modify, create derivative works of, publicly display,
+        publicly perform, republish, download, store, or transmit any of the
+        material on our Website, except as follows: Your computer may
+        temporarily store copies of materials in RAM as part of your accessing
+        and viewing those materials. You may store files that your web browser
+        automatically caches to enhance display performance. You may print or
+        download one copy of a reasonable number of pages from the Website for
+        your personal, non-commercial use, provided it&apos;s not for further
+        reproduction, publication, or distribution. If we provide desktop,
+        mobile, or other applications for download, you may download a single
+        copy to your device for personal, non-commercial use, provided you agree
+        to be bound by our end user license agreement for such applications. If
+        the Website offers social media features, such as &apos;Share&apos; or
+        &apos;Pin It,&apos; you may take actions enabled by these features.
       </p>
 
       <h2>Prohibited Uses</h2>
@@ -134,19 +136,20 @@ function index() {
         our discretion, return or destroy any copies of the materials you have
         made. No right, title, or interest in the Website or any content on the
         Website is transferred to you, and all rights not expressly granted are
-        reserved by Kids N' Kraft. Any use of the Website not expressly
+        reserved by Kids N&apos; Kraft. Any use of the Website not expressly
         permitted by these Terms of Use is a violation of these Terms and may
         infringe upon copyright, trademark, and other laws.
       </p>
 
       <h2>Copyright and Trademark</h2>
       <p>
-        The name “Kids N' Kraft,” our logo, and all related names, logos,
-        product and service names, designs, and slogans are the intellectual
-        property of Kids N' Kraft or its affiliates or licensors. You may not
-        use these marks without our prior written permission. All other names,
-        logos, product and service names, designs, and slogans displayed on this
-        Website are the intellectual property of their respective owners.
+        The name &apos;Kids N&apos; Kraft,&apos; our logo, and all related
+        names, logos, product and service names, designs, and slogans are the
+        intellectual property of Kids N&apos; Kraft or its affiliates or
+        licensors. You may not use these marks without our prior written
+        permission. All other names, logos, product and service names, designs,
+        and slogans displayed on this Website are the intellectual property of
+        their respective owners.
       </p>
 
       <h2>Prohibited Uses</h2>
@@ -164,21 +167,22 @@ function index() {
         information, or otherwise.
         <br /> Unsolicited Communications: To transmit or solicit any
         advertising or promotional material, including, but not limited to,
-        “junk mail,” “chain letters,” “spam,” or any other similar solicitation.
+        &apos;junk mail,&apos; &apos;chain letters,&apos; &apos;spam,&apos; or
+        any other similar solicitation.
         <br />
-        Impersonation: To impersonate or attempt to impersonate Kids N' Kraft, a
-        Company employee, another user, or any other person or entity,
+        Impersonation: To impersonate or attempt to impersonate Kids N&apos;
+        Kraft, a Company employee, another user, or any other person or entity,
         including, but not limited to, using email addresses or screen names
         associated with any of the foregoing.
         <br /> Restricting Use: To engage in any conduct that restricts or
-        inhibits anyone’s use or enjoyment of the Website, or that, as
-        determined by us, may harm Kids N' Kraft or users of the Website, or
-        expose them to liability.
+        inhibits anyone&apos;s use or enjoyment of the Website, or that, as
+        determined by us, may harm Kids N&apos; Kraft or users of the Website,
+        or expose them to liability.
         <br /> Additionally, you agree not to:
         <br /> Site Interference: Use the Website in any manner that could
         disable, overburden, damage, or impair the site or interfere with any
-        other party’s use of the Website, including their ability to engage in
-        real-time activities through the Website.
+        other party&apos;s use of the Website, including their ability to engage
+        in real-time activities through the Website.
         <br /> Automated Access: Use any robot, spider, or other automatic
         device, process, or means to access the Website for any purpose,
         including monitoring or copying any material on the Website.
@@ -273,13 +277,13 @@ function index() {
 
       <h2>Geographic Restrictions</h2>
       <p>
-        Kids N' Kraft is based in the USA. The Website is intended for use only
-        by individuals located in the United States. We make no claims regarding
-        the accessibility or appropriateness of the Website or its content
-        outside the United States. Access to the Website may be restricted or
-        prohibited in certain countries. If you access the Website from outside
-        the United States, you do so at your own initiative and are responsible
-        for ensuring compliance with local laws and regulations.
+        Kids N&apos; Kraft is based in the USA. The Website is intended for use
+        only by individuals located in the United States. We make no claims
+        regarding the accessibility or appropriateness of the Website or its
+        content outside the United States. Access to the Website may be
+        restricted or prohibited in certain countries. If you access the Website
+        from outside the United States, you do so at your own initiative and are
+        responsible for ensuring compliance with local laws and regulations.
       </p>
 
       <h2>Disclaimer of Warranties and Limitation of Liability</h2>
@@ -300,40 +304,40 @@ function index() {
         Warranties: YOUR USE OF THE WEBSITE, ITS CONTENT, AND ANY SERVICES OR
         ITEMS OBTAINED THROUGH THE WEBSITE IS AT YOUR OWN RISK. THE WEBSITE, ITS
         CONTENT, AND ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE ARE
-        PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS, WITHOUT ANY WARRANTIES
-        OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER KIDS N' KRAFT NOR ANY
-        PERSON ASSOCIATED WITH KIDS N' KRAFT MAKES ANY WARRANTY OR
-        REPRESENTATION REGARDING THE COMPLETENESS, SECURITY, RELIABILITY,
-        QUALITY, ACCURACY, OR AVAILABILITY OF THE WEBSITE. WITHOUT LIMITING THE
-        FOREGOING, NEITHER KIDS N' KRAFT NOR ANYONE ASSOCIATED WITH KIDS N'
-        KRAFT WARRANTS THAT THE WEBSITE, ITS CONTENT, OR ANY SERVICES OR ITEMS
-        OBTAINED THROUGH THE WEBSITE WILL BE ACCURATE, RELIABLE, ERROR-FREE, OR
-        UNINTERRUPTED, THAT DEFECTS WILL BE CORRECTED, THAT OUR SITE OR THE
-        SERVER THAT MAKES IT AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL
-        COMPONENTS, OR THAT THE WEBSITE OR ANY SERVICES OR ITEMS OBTAINED
-        THROUGH THE WEBSITE WILL OTHERWISE MEET YOUR NEEDS OR EXPECTATIONS.
-        Disclaimer of Implied Warranties: TO THE FULLEST EXTENT PERMITTED BY
-        LAW, KIDS N' KRAFT DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS
-        OR IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING BUT NOT LIMITED TO ANY
-        WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT, AND FITNESS FOR A
-        PARTICULAR PURPOSE. Legal Limitations: THE FOREGOING DISCLAIMERS DO NOT
-        AFFECT ANY WARRANTIES THAT CANNOT BE EXCLUDED OR LIMITED UNDER
-        APPLICABLE LAW.
+        PROVIDED ON AN &apos;AS IS&apos; AND &apos;AS AVAILABLE&apos; BASIS,
+        WITHOUT ANY WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. NEITHER
+        KIDS N&apos; KRAFT NOR ANY PERSON ASSOCIATED WITH KIDS N&apos; KRAFT
+        MAKES ANY WARRANTY OR REPRESENTATION REGARDING THE COMPLETENESS,
+        SECURITY, RELIABILITY, QUALITY, ACCURACY, OR AVAILABILITY OF THE
+        WEBSITE. WITHOUT LIMITING THE FOREGOING, NEITHER KIDS N&apos; KRAFT NOR
+        ANYONE ASSOCIATED WITH KIDS N&apos; KRAFT WARRANTS THAT THE WEBSITE, ITS
+        CONTENT, OR ANY SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL BE
+        ACCURATE, RELIABLE, ERROR-FREE, OR UNINTERRUPTED, THAT DEFECTS WILL BE
+        CORRECTED, THAT OUR SITE OR THE SERVER THAT MAKES IT AVAILABLE ARE FREE
+        OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THE WEBSITE OR ANY
+        SERVICES OR ITEMS OBTAINED THROUGH THE WEBSITE WILL OTHERWISE MEET YOUR
+        NEEDS OR EXPECTATIONS. Disclaimer of Implied Warranties: TO THE FULLEST
+        EXTENT PERMITTED BY LAW, KIDS N&apos; KRAFT DISCLAIMS ALL WARRANTIES OF
+        ANY KIND, WHETHER EXPRESS OR IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING
+        BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, NON-INFRINGEMENT,
+        AND FITNESS FOR A PARTICULAR PURPOSE. Legal Limitations: THE FOREGOING
+        DISCLAIMERS DO NOT AFFECT ANY WARRANTIES THAT CANNOT BE EXCLUDED OR
+        LIMITED UNDER APPLICABLE LAW.
       </p>
 
       <h2>Indemnification</h2>
       <p>
-        You agree to defend, indemnify, and hold harmless Kids N' Kraft, its
-        affiliates, licensors, and service providers, as well as their
+        You agree to defend, indemnify, and hold harmless Kids N&apos; Kraft,
+        its affiliates, licensors, and service providers, as well as their
         respective officers, directors, employees, contractors, agents,
         licensors, suppliers, successors, and assigns, from and against any
         claims, liabilities, damages, judgments, awards, losses, costs,
-        expenses, or fees (including reasonable attorneys’ fees) that arise from
-        or relate to your violation of these Terms of Use or your use of the
-        Website. This includes, but is not limited to, your User Contributions,
-        any use of the Website’s content, services, and products not expressly
-        authorized by these Terms of Use, or your use of any information
-        obtained from the Website.
+        expenses, or fees (including reasonable attorneys&apos; fees) that arise
+        from or relate to your violation of these Terms of Use or your use of
+        the Website. This includes, but is not limited to, your User
+        Contributions, any use of the Website&apos;s content, services, and
+        products not expressly authorized by these Terms of Use, or your use of
+        any information obtained from the Website.
       </p>
 
       <h2>Limitation on Time to File Claims</h2>
@@ -346,20 +350,20 @@ function index() {
 
       <h2>Waiver and Severability</h2>
       <p>
-        No waiver by Kids N' Kraft of any term or condition set out in these
-        Terms of Use shall be deemed a further or continuing waiver of such term
-        or condition or a waiver of any other term or condition. Any failure by
-        Kids N' Kraft to assert a right or provision under these Terms of Use
-        does not constitute a waiver of such right or provision.
+        No waiver by Kids N&apos; Kraft of any term or condition set out in
+        these Terms of Use shall be deemed a further or continuing waiver of
+        such term or condition or a waiver of any other term or condition. Any
+        failure by Kids N&apos; Kraft to assert a right or provision under these
+        Terms of Use does not constitute a waiver of such right or provision.
       </p>
 
       <h2>Entire Agreement</h2>
       <p>
         These Terms of Use, along with our Privacy Policy, constitute the sole
-        and entire agreement between you and Kids N' Kraft regarding the Website
-        and supersede all prior and contemporaneous understandings, agreements,
-        representations, and warranties, whether written or oral, regarding the
-        Website.
+        and entire agreement between you and Kids N&apos; Kraft regarding the
+        Website and supersede all prior and contemporaneous understandings,
+        agreements, representations, and warranties, whether written or oral,
+        regarding the Website.
       </p>
     </div>
   );

@@ -10,7 +10,7 @@ function index() {
         use, and protect your information when you visit our website.
         <h2>1. Information We Collect</h2>
         To ensure that we provide a personalized and effective experience, we
-        use cookies and collect certain data. Here’s what we gather:
+        use cookies and collect certain data. Here&apos;s what we gather:
         <br /> IP Address
         <br />
         Operating System Type and Version <br />
