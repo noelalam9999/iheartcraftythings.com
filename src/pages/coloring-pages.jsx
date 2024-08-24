@@ -2,8 +2,10 @@ import React from "react";
 import BlogList from "../components/BlogsList";
 import blogs from "@/data/bloglist.json";
 import Head from "next/head";
-
-function ColoringPages() {
+import usePosts from "@/hooks/usePosts/index.js";
+import { getPosts } from "@/services/getPosts/index.js";
+import { config } from "../config";
+function ColoringPages({ data }) {
   return (
     <>
       <Head>
@@ -16,10 +18,19 @@ function ColoringPages() {
           <div className="current-page-label text-bold">Coloring Pages</div>
         </div>
 
-        <BlogList blogs={blogs} />
+        <BlogList blogs={blogs} data={data} />
       </div>
     </>
   );
 }
 
 export default ColoringPages;
+
+export async function getServerSideProps() {
+  // Fetch data from external API
+  // const { isLoading, data } = usePosts(1);
+  const res = await fetch(`${config.backendLocal}/blogs`);
+  const data = await res.json();
+  // Pass data to the page via props
+  return { props: { data } };
+}

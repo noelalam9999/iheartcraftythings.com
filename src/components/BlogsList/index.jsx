@@ -4,9 +4,10 @@ import styles from "./style.module.css";
 import usePosts from "@/hooks/usePosts/index.js";
 import useBlogListDistance from "../../hooks/BlogListDistance";
 
-function BlogList() {
+function BlogList({ data }) {
   const blogRef = useRef();
-  const { isLoading, data } = usePosts(1);
+  const isLoading = false;
+  // const { isLoading, data } = usePosts(1);
 
   const { setBlogListDistance } = useBlogListDistance();
   function handleScroll() {
@@ -27,7 +28,7 @@ function BlogList() {
     <>Loading</>
   ) : (
     <div ref={blogRef} className={styles.blogList}>
-      {data?.data?.result?.map((blogPost) => {
+      {data?.result?.map((blogPost) => {
         return <BlogCard key={blogPost.id} blogPost={blogPost} />;
       })}
     </div>

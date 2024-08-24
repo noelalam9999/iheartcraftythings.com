@@ -8,21 +8,12 @@ function Footer() {
         <div className={styles.ourMission}>
           <div className={styles.title}>OUR MISSION</div>
           <div className={styles.passage}>
-            Since we first launched in 2001 we have had one simple mission.
-            Deliver the best crafts and fun activities for all our readers.
-            <br /> <br />
-            From arts and crafts, to drawing and coloring there really is
-            something for everyone here, so please explore and most importantly
-            - have fun!
-            <br />
-            <br />
-            We love to hear your feedback so remember to connect with us on
-            social media and say hello!
-            <br />
-            <br /> I Heart Crafty Things is a participant in the Amazon Services
-            LLC Associates Program, an affiliate advertising program designed to
-            provide a means for sites to earn advertising fees by advertising
-            and linking to amazon.com.
+            Kids N' Kraft is a participant in affiliate programs and may earn
+            commissions from qualifying purchases made through links on our
+            site. We also promote advertisements to support and fund our
+            website. All content on this website is provided for informational
+            and educational purposes only and is not intended as a substitute
+            for professional advice.
           </div>
         </div>
         <div className={styles.navigation}>
