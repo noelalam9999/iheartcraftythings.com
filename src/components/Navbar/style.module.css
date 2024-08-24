@@ -61,6 +61,7 @@
 .menuItem {
   margin-right: 1rem;
   text-decoration: none;
+  color: black;
 }
 
 .menuItem:visited {

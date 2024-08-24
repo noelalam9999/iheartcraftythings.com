@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import BlogList from "@/components/BlogsList";
 import blogs from "@/data/bloglist.json";
-
+import { config } from "../config";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }) {
