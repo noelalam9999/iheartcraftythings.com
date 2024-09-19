@@ -6,10 +6,10 @@ function Footer() {
     <>
       <div className={styles.footer}>
         <div className={styles.ourMission}>
-          <div className={styles.title}>OUR MISSION</div>
+          <div className={styles.title}>Disclaimer</div>
           <div className={styles.passage}>
-            Kids N&apos; Kraft is a participant in affiliate programs and may
-            earn commissions from qualifying purchases made through links on our
+            Kids N' Kraft is a participant in affiliate programs and may earn
+            commissions from qualifying purchases made through links on our
             site. We also promote advertisements to support and fund our
             website. All content on this website is provided for informational
             and educational purposes only and is not intended as a substitute
