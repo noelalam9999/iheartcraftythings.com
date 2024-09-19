@@ -71,7 +71,7 @@ export async function uploadImageURLsToSheets(
         }
       });
       arrangedImages.push({
-        range: `BlogsList!G${targetSheet[0].id + 2}`,
+        range: `BlogsList!G${targetSheet[0]?.id + 2}`,
         values: [featuredImage],
       });
     }

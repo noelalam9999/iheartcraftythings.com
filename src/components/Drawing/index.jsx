@@ -18,18 +18,18 @@ function Drawing({ drawing, folder }) {
 
   return (
     <div className={styles.drawing}>
-      <h2>{drawing.Title}</h2>
+      <h2>{drawing?.Title}</h2>
       <figure>
         <figcaption
           className={styles.description}
           dangerouslySetInnerHTML={{
-            __html: drawing.Description,
+            __html: drawing?.Description,
           }}
         ></figcaption>
         <img
           className="image-to-print"
           ref={componentRef}
-          src={drawing.ImageURL}
+          src={drawing?.ImageURL}
         />
       </figure>
 
@@ -48,14 +48,14 @@ function Drawing({ drawing, folder }) {
           className={styles.ctaButton}
           download
           onClick={() => {
-            saveAs(drawing.ImageURL); // Put your image URL here.
+            saveAs(drawing?.ImageURL); // Put your image URL here.
           }}
         >
           Download
         </button>
         <a
           className={styles.ctaButton}
-          href={`https://pinterest.com/pin/create/button/?url=https://kidsnkraft.com&media=${drawing.ImageURL}&title=${drawing.Title}&description=${drawing.Description}&method=button`}
+          href={`https://pinterest.com/pin/create/button/?url=https://kidsnkraft.com&media=${drawing?.ImageURL}&title=${drawing?.Title}&description=${drawing?.Description}&method=button`}
         >
           Pinterest
         </a>

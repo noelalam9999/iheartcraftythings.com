@@ -33,8 +33,8 @@ function ColoringPage({ post }) {
         </div> */}
 
         <div className={styles.coloringPage}>
-          <h1 className={styles.title}>{post?.details.title}</h1>
-          <h2 className={styles.subTitle}>{post?.details.hook}</h2>
+          <h1 className={styles.title}>{post?.details?.title}</h1>
+          <h2 className={styles.subTitle}>{post?.details?.hook}</h2>
 
           <div className={styles.blog}>
             {/* <div className={styles.shareIcons}>
@@ -47,20 +47,20 @@ function ColoringPage({ post }) {
             <div className={styles.content}>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: post?.details.introduction,
+                  __html: post?.details?.introduction,
                 }}
               ></p>
 
               <Drawing
-                drawing={post?.content[0]}
-                folder={post?.details.sheet}
+                drawing={Array.isArray(post?.content) && post?.content[0]}
+                folder={post?.details?.sheet}
               ></Drawing>
 
-              {post?.content.slice(1).map((drawing) => (
+              {post?.content?.slice(1).map((drawing) => (
                 <Drawing
-                  key={drawing.Number}
+                  key={drawing?.Number}
                   drawing={drawing}
-                  folder={post?.details.sheet}
+                  folder={post?.details?.sheet}
                 ></Drawing>
               ))}
             </div>
