@@ -26,11 +26,20 @@ function ColoringPages({ data }) {
 
 export default ColoringPages;
 
-export async function getServerSideProps() {
-  // Fetch data from external API
-  // const { isLoading, data } = usePosts(1);
+// export async function getServerSideProps() {
+//   // Fetch data from external API
+//   // const { isLoading, data } = usePosts(1);
+//   const res = await fetch(`${config.backendLocal}/blogs`);
+//   const data = await res.json();
+//   // Pass data to the page via props
+//   return { props: { data } };
+// }
+
+export const getStaticProps = async () => {
   const res = await fetch(`${config.backendLocal}/blogs`);
   const data = await res.json();
-  // Pass data to the page via props
-  return { props: { data } };
-}
+  return {
+    props: { data },
+    revalidate: 60 * 60 * 24, // re-generate HTML file every 10 seconds
+  };
+};
