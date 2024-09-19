@@ -85,7 +85,7 @@ export async function getStaticPaths() {
 
   // We'll prerender only these paths at build time.
   // { fallback: false } means other routes should 404.
-  return { paths, fallback: true };
+  return { paths, fallback: "blocking" };
 }
 
 export async function getStaticProps({ params }) {
@@ -97,7 +97,7 @@ export async function getStaticProps({ params }) {
     props: { post },
     // Next.js will invalidate the cache when a
     // request comes in, at most once every 60 seconds.
-    revalidate: 10,
+    revalidate: 60,
   };
 }
 
