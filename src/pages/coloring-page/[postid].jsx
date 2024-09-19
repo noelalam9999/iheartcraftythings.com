@@ -18,7 +18,7 @@ function ColoringPage({ post }) {
       {/* {post.data ? (
         <> */}
       <Head>
-        <title>{post?.details.title}</title>
+        <title>{post?.details?.title}</title>
       </Head>
       <div className="content-wrapper">
         {/* <div className="current-page-post">
