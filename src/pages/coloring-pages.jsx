@@ -40,6 +40,6 @@ export const getStaticProps = async () => {
   const data = await res.json();
   return {
     props: { data },
-    revalidate: 60 * 60 * 24, // re-generate HTML file every 10 seconds
+    revalidate: 10, // re-generate HTML file every 10 seconds
   };
 };

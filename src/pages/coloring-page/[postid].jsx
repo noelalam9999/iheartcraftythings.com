@@ -97,7 +97,7 @@ export async function getStaticProps({ params }) {
     props: { post },
     // Next.js will invalidate the cache when a
     // request comes in, at most once every 60 seconds.
-    revalidate: 60 * 60 * 24,
+    revalidate: 10,
   };
 }
 
