@@ -3,24 +3,35 @@
   background-color: rgb(255, 255, 255);
 }
 
+.currentPageLabel h1 {
+  width: 90vw;
+  text-align: center;
+}
 .content-wrapper {
 }
 .blog {
-  margin: 2vw 3vw 1vw 3vw;
+  /* margin: 2vw 3vw 1vw 3vw; */
   text-wrap: wrap;
-  display: grid;
-  grid-template-columns: 5vw 43vw 36vw;
+  display: flex;
+  justify-content: center;
+  width: 90vw;
   border-top: solid 2px grey;
 }
-
+.content {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .title {
   background-color: rgb(255, 255, 255);
+  width: 90vw;
+  text-align: center;
   font-size: 2.2rem;
   font-weight: 700;
   font-family: Poppins-Regular;
   margin-block-start: 0em;
   padding-top: 5vh;
-  padding-left: 3vw;
 }
 
 .subTitle {
@@ -29,8 +40,9 @@
   font-weight: 300;
   opacity: 0.5;
   padding-bottom: 0vh;
-  padding-left: 3vw;
-  width: 80vw;
+  /* padding-left: 3vw; */
+  text-align: center;
+  width: 90vw;
   text-wrap: wrap;
 }
 
@@ -51,13 +63,13 @@
   color: #2c9fa3;
   font-weight: 700;
 }
-
+/* 
 .socialColor {
   width: 4vw;
   height: auto;
   margin-top: 1em;
   position: sticky;
-}
+} */
 
 .drawing {
   display: flex;
@@ -78,13 +90,14 @@
 }
 
 .drawing img {
-  width: 43vw;
+  width: 35vw;
 }
 
 .ctaButtons {
   width: 43vw;
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 2px black;
 }
 
 .ctaButton {
@@ -93,7 +106,7 @@
   font-family: Poppins-Regular;
   font-size: 1rem;
   color: white;
-  background-color: #2c9fa3;
+  background-color: #3885fc;
   border-radius: 0.2rem;
   display: flex;
   justify-content: center;
@@ -106,16 +119,25 @@
   color: white;
 }
 @media (max-width: 600px) {
+  .coloringPage {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .title {
     font-size: 2rem;
     padding-top: 5vh;
-    padding-left: 3vw;
   }
   .subTitle {
     font-size: 1.2rem;
   }
   .blog p {
     font-size: 1.2rem;
+  }
+  .content {
+    width: 90vw;
   }
   .blog {
     grid-template-columns: 90vw;
@@ -131,10 +153,10 @@
     font-size: 1.2rem;
   }
   .drawing img {
-    width: 95vw;
+    width: 90vw;
   }
   .ctaButtons {
-    width: 95vw;
+    width: 100vw;
     display: flex;
     justify-content: space-evenly;
   }

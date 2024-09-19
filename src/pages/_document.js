@@ -22,6 +22,10 @@ export default function Document() {
             border-radius: 10px;
           }
           `}</style>
+        <meta
+          name="p:domain_verify"
+          content="4ad86ee21673982db6d1591b42846096"
+        />
       </Head>
 
       <body style={{ margin: 0 }}>

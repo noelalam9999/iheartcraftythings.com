@@ -20,7 +20,12 @@ function Drawing({ drawing, folder }) {
     <div className={styles.drawing}>
       <h2>{drawing.Title}</h2>
       <figure>
-        <figcaption>{drawing.Description}</figcaption>
+        <figcaption
+          className={styles.description}
+          dangerouslySetInnerHTML={{
+            __html: drawing.Description,
+          }}
+        ></figcaption>
         <img
           className="image-to-print"
           ref={componentRef}
