@@ -10,9 +10,6 @@ import Drawing from "../../components/Drawing";
 import { config } from "../../config";
 
 function ColoringPage({ post }) {
-  // const router = useRouter();
-  // let post = {};
-  // post = usePost(router.query?.postid);
   return (
     <>
       {/* {post.data ? (

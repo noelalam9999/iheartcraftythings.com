@@ -10,7 +10,7 @@ export default function Document() {
               padding: 0;
               width: 100%;
               height: 100%;
-              overflow-x: hidden; /* Prevent horizontal scroll */
+              // overflow-x: hidden; /* Prevent horizontal scroll */
             }
             * {
               box-sizing: border-box;
