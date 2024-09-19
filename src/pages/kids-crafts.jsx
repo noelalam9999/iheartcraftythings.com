@@ -33,11 +33,11 @@ export default KidsCrafts;
 //   return { props: { data } };
 // }
 
-export const getStaticProps = async () => {
+export async function getServerSideProps() {
+  // Fetch data from external API
+  // const { isLoading, data } = usePosts(1);
   const res = await fetch(`${config.backendLocal}/blogs`);
   const data = await res.json();
-  return {
-    props: { data },
-    revalidate: 10, // re-generate HTML file every 10 seconds
-  };
-};
+  // Pass data to the page via props
+  return { props: { data } };
+}
