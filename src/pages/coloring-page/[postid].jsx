@@ -75,30 +75,40 @@ function ColoringPage({ post }) {
   );
 }
 
-export async function getStaticPaths() {
-  let posts = await fetch(`${config.backendLocal}/blogs`).then((res) =>
-    res.json()
-  );
-  let paths = posts.result.map((post) => ({
-    params: { postid: post.id },
-  }));
+// export async function getStaticPaths() {
+//   let posts = await fetch(`${config.backendLocal}/blogs`).then((res) =>
+//     res.json()
+//   );
+//   let paths = posts.result.map((post) => ({
+//     params: { postid: post.id },
+//   }));
 
-  // We'll prerender only these paths at build time.
-  // { fallback: false } means other routes should 404.
-  return { paths, fallback: false };
-}
+//   // We'll prerender only these paths at build time.
+//   // { fallback: false } means other routes should 404.
+//   return { paths, fallback: false };
+// }
 
-export async function getStaticProps({ params }) {
-  let post = await fetch(`${config.backendLocal}/blog/${params.postid}`).then(
+// export async function getStaticProps({ params }) {
+//   let post = await fetch(`${config.backendLocal}/blog/${params.postid}`).then(
+//     (res) => res.json()
+//   );
+
+//   return {
+//     props: { post },
+//     // Next.js will invalidate the cache when a
+//     // request comes in, at most once every 60 seconds.
+//     revalidate: 60,
+//   };
+// }
+
+export async function getServerSideProps({ query }) {
+  // Fetch data from external API
+  // const { isLoading, data } = usePosts(1);
+  let post = await fetch(`${config.backendLocal}/blog/${query.postid}`).then(
     (res) => res.json()
   );
-
-  return {
-    props: { post },
-    // Next.js will invalidate the cache when a
-    // request comes in, at most once every 60 seconds.
-    revalidate: 60,
-  };
+  // Pass data to the page via props
+  return { props: { post } };
 }
 
 export default ColoringPage;
