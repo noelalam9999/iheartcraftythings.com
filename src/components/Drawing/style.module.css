@@ -71,13 +71,14 @@
   }
 
   .drawing figcaption {
+    width: 90vw;
     font-size: 1.2rem;
   }
   .drawing img {
-    width: 95vw;
+    width: 90vw;
   }
   .ctaButtons {
-    width: 95vw;
+    width: 90vw;
     display: flex;
     justify-content: space-evenly;
   }
