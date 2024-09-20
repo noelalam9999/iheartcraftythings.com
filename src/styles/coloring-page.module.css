@@ -18,7 +18,7 @@
   border-top: solid 2px grey;
 }
 .content {
-  width: 50vw;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -94,18 +94,18 @@
 }
 
 .drawing img {
-  width: 35vw;
+  width: 20vw;
 }
 
 .ctaButtons {
-  width: 43vw;
+  width: 20vw;
   display: flex;
   justify-content: space-evenly;
   border-bottom: 2px black;
 }
 
 .ctaButton {
-  width: 10vw;
+  width: 5.5vw;
   height: 3.5vw;
   font-family: Poppins-Regular;
   font-size: 1rem;

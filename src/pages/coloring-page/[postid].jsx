@@ -32,7 +32,6 @@ function ColoringPage({ post }) {
         <div className={styles.coloringPage}>
           <h1 className={styles.title}>{post?.details?.title}</h1>
           <h2 className={styles.subTitle}>{post?.details?.hook}</h2>
-
           <div className={styles.blog}>
             {/* <div className={styles.shareIcons}>
                   <Image

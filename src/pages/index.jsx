@@ -17,7 +17,7 @@ export default function Home({ data }) {
   );
 }
 
-export async function getServerSideProps({ req, res }) {
+export async function getServerSideProps() {
   // Fetch data from external API
   // const { isLoading, data } = usePosts(1);
   const response = await fetch(`${config.backendLocal}/blogs`);
