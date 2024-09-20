@@ -26,7 +26,7 @@
 }
 
 .drawing img {
-  width: 25vw;
+  width: 30vw;
   margin-top: 5vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.5rem;
@@ -35,7 +35,7 @@
 }
 
 .ctaButtons {
-  width: 25vw;
+  width: 30vw;
   display: flex;
   justify-content: space-evenly;
   margin-top: 5vh;
@@ -44,7 +44,7 @@
 }
 
 .ctaButton {
-  width: 8vw;
+  width: 9vw;
   height: 2.5vw;
   font-family: Poppins-Regular;
   font-size: 1rem;

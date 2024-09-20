@@ -40,13 +40,12 @@ function ColoringPage({ post }) {
                     alt="social-color"
                   />
                 </div> */}
+            <p
+              dangerouslySetInnerHTML={{
+                __html: post?.details?.introduction,
+              }}
+            ></p>
             <div className={styles.content}>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: post?.details?.introduction,
-                }}
-              ></p>
-
               <Drawing
                 drawing={Array.isArray(post?.content) && post?.content[0]}
                 folder={post?.details?.sheet}

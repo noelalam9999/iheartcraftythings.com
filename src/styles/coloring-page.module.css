@@ -13,12 +13,17 @@
   /* margin: 2vw 3vw 1vw 3vw; */
   text-wrap: wrap;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 90vw;
   border-top: solid 2px grey;
 }
+.blog p {
+  width: 80vw;
+}
 .content {
-  width: 25vw;
+  width: 30vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;

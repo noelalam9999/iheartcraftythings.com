@@ -20,14 +20,18 @@ export default function Home({ data }) {
 export async function getServerSideProps() {
   // Fetch data from external API
   // const { isLoading, data } = usePosts(1);
-  const response = await fetch(`${config.backendLocal}/blogs`);
-  // res.setHeader(
-  //   "Cache-Control",
-  //   "public, s-maxage=10, stale-while-revalidate=59"
-  // );
-  const data = await response.json();
-  // Pass data to the page via props
-  return { props: { data } };
+  try {
+    const response = await fetch(`${config.backendLocal}/blogs`);
+    // res.setHeader(
+    //   "Cache-Control",
+    //   "public, s-maxage=10, stale-while-revalidate=59"
+    // );
+    const data = await response.json();
+    // Pass data to the page via props
+    return { props: { data } };
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 // export const getStaticProps = async () => {
