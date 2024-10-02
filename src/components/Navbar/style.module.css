@@ -12,6 +12,9 @@
   top: 0;
   z-index: 10;
 }
+.navbarMobile {
+  display: none;
+}
 
 .shadow {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -74,8 +77,16 @@
 
 @media (max-width: 600px) {
   .navbar {
+    display: none;
+  }
+
+  .navbarMobile {
+    display: flex;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
     padding-left: 0vw;
+    padding-right: 0vw;
   }
   .menuItems {
     display: none;
@@ -91,7 +102,7 @@
   }
 
   .search {
-    display: none;
+    visibility: hidden;
   }
 
   .shareIconImg {

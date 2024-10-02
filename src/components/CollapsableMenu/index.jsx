@@ -30,8 +30,11 @@ function CollapsableMenu() {
             <Link href="/coloring-pages" className={styles.menuItem}>
               Coloring Pages
             </Link>
-            <Link href="/kids-crafts" className={styles.menuItem}>
+            {/* <Link href="/kids-crafts" className={styles.menuItem}>
               Kids Crafts
+            </Link> */}
+            <Link href="/mission" className={styles.menuItem}>
+              About Us
             </Link>
           </div>
           <div className={styles.social}>

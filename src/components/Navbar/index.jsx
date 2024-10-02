@@ -33,54 +33,120 @@ function Navbar() {
   const { blogListDistance } = useBlogListDistance();
 
   return (
-    <div
-      className={`${styles.navbar} ${
-        blogListDistance < 60 ? `${styles.shadow}` : ""
-      }`}
-    >
-      <div onClick={onBurgerMenuClick} className={styles.burgerMenu}>
-        <Image
-          src={burgerMenu}
-          className={styles.burgerMenuIconImg}
-          alt="burger-menu"
-        />
-      </div>
-      <div className={styles.logoMenuItems}>
-        <Link href="/" className={styles.logo}>
-          <Image className={styles.logoImg} src={logo} alt="logo" />
-        </Link>
-        <div className={styles.menuItems}>
-          <Link href="/coloring-pages" className={styles.menuItem}>
-            Coloring Pages
-          </Link>
-          <Link href="/kids-crafts" className={styles.menuItem}>
-            Kids Crafts
-          </Link>
-        </div>
-      </div>
-      <div className={styles.searchShareBtn}>
-        <div
-          onMouseEnter={() => onSearchIconHover(true)}
-          onMouseLeave={() => onSearchIconHover(false)}
-          className={styles.search}
-        >
+    <>
+      <div
+        className={`${styles.navbar} ${
+          blogListDistance < 60 ? `${styles.shadow}` : ""
+        }`}
+      >
+        <div onClick={onBurgerMenuClick} className={styles.burgerMenu}>
           <Image
-            src={searchIcon}
-            className={styles.searchIconImg}
-            alt="Search"
+            src={burgerMenu}
+            className={styles.burgerMenuIconImg}
+            alt="burger-menu"
           />
-          <SearchInputBox />
         </div>
-        <div
-          onMouseEnter={() => onSocialMediaIconHover(true)}
-          onMouseLeave={() => onSocialMediaIconHover(false)}
-          className={styles.shareBtn}
-        >
-          <Image src={shareIcon} className={styles.shareIconImg} alt="share" />
-          <SocialMediaOptions />
+        <div className={styles.logoMenuItems}>
+          <Link href="/" className={styles.logo}>
+            <Image className={styles.logoImg} src={logo} alt="logo" />
+          </Link>
+          <div className={styles.menuItems}>
+            <Link href="/coloring-pages" className={styles.menuItem}>
+              Coloring Pages
+            </Link>
+            {/* <Link href="/kids-crafts" className={styles.menuItem}>
+            Kids Crafts
+          </Link> */}
+            <Link href="/mission" className={styles.menuItem}>
+              About Us
+            </Link>
+          </div>
+        </div>
+        <div className={styles.searchShareBtn}>
+          <div
+            onMouseEnter={() => onSearchIconHover(true)}
+            onMouseLeave={() => onSearchIconHover(false)}
+            className={styles.search}
+          >
+            <Image
+              src={searchIcon}
+              className={styles.searchIconImg}
+              alt="Search"
+            />
+            <SearchInputBox />
+          </div>
+          <div
+            onMouseEnter={() => onSocialMediaIconHover(true)}
+            onMouseLeave={() => onSocialMediaIconHover(false)}
+            className={styles.shareBtn}
+          >
+            <Image
+              src={shareIcon}
+              className={styles.shareIconImg}
+              alt="share"
+            />
+            <SocialMediaOptions />
+          </div>
         </div>
       </div>
-    </div>
+
+      <div
+        className={`${styles.navbarMobile} ${
+          blogListDistance < 60 ? `${styles.shadow}` : ""
+        }`}
+      >
+        <div className={styles.searchShareBtn}>
+          <div
+            onMouseEnter={() => onSearchIconHover(true)}
+            onMouseLeave={() => onSearchIconHover(false)}
+            className={styles.search}
+          >
+            <Image
+              src={searchIcon}
+              className={styles.searchIconImg}
+              alt="Search"
+            />
+            <SearchInputBox />
+          </div>
+          <div
+            onMouseEnter={() => onSocialMediaIconHover(true)}
+            onMouseLeave={() => onSocialMediaIconHover(false)}
+            className={styles.shareBtn}
+          >
+            <Image
+              src={shareIcon}
+              className={styles.shareIconImg}
+              alt="share"
+            />
+            <SocialMediaOptions />
+          </div>
+        </div>
+
+        <div className={styles.logoMenuItems}>
+          <Link href="/" className={styles.logo}>
+            <Image className={styles.logoImg} src={logo} alt="logo" />
+          </Link>
+          <div className={styles.menuItems}>
+            <Link href="/coloring-pages" className={styles.menuItem}>
+              Coloring Pages
+            </Link>
+            {/* <Link href="/kids-crafts" className={styles.menuItem}>
+            Kids Crafts
+          </Link> */}
+            <Link href="/mission" className={styles.menuItem}>
+              About Us
+            </Link>
+          </div>
+        </div>
+        <div onClick={onBurgerMenuClick} className={styles.burgerMenu}>
+          <Image
+            src={burgerMenu}
+            className={styles.burgerMenuIconImg}
+            alt="burger-menu"
+          />
+        </div>
+      </div>
+    </>
   );
 }
 

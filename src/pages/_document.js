@@ -23,6 +23,7 @@ export default function Document() {
             border-radius: 10px;
           }
           `}</style>
+        <link rel="icon" href="./favicon.ico"></link>
         <meta
           name="p:domain_verify"
           content="4ad86ee21673982db6d1591b42846096"
