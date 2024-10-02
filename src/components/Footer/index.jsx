@@ -20,7 +20,7 @@ function Footer() {
           <div className={styles.title}>EXPLORE THE SITE</div>
           <div className={styles.links}>
             <Link href="/coloring-pages">Coloring Pages</Link>
-            <Link href="/kids-crafts">Kids Crafts</Link>
+            <Link href="/mission">About Us</Link>
           </div>
         </div>
         <div className={styles.importantPages}>
