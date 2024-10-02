@@ -13,7 +13,7 @@ function Footer() {
             site. We also promote advertisements to support and fund our
             website. All content on this website is provided for informational
             and educational purposes only and is not intended as a substitute
-            for professional advice.
+            for professional advice
           </div>
         </div>
         <div className={styles.navigation}>
